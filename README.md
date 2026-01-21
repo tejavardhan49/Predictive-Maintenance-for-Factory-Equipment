@@ -19,11 +19,11 @@ This project addresses the challenges of ensuring uninterrupted operation and mi
 
 
 
-* 
+ 
 **Failure Prediction:** Predicts specific failure types (e.g., Power Failure, Tool Wear Failure, Overstrain Failure).
 
 
-* 
+  
 **Remaining Useful Life (RUL) Estimation:** Calculates and suggests the available life of the machinery before maintenance is required.
 
 
@@ -32,30 +32,28 @@ This project addresses the challenges of ensuring uninterrupted operation and mi
 
 ### Hardware
 
-* 
+
 **Processor:** i3 or above.
 
 
-* 
+ 
 **RAM:** 4 GB.
 
 
-* 
+ 
 **Hard Disk:** 40 GB.
 
 
 
 ### Software
 
-* 
+ 
 **Operating System:** Windows 8 or above.
 
 
-* 
+ 
 **Coding Language:** Python.
-
-
-* 
+ 
 **IDE/Environment:** Jupyter Notebook.
 
 
@@ -136,35 +134,32 @@ jupyter notebook
 Click on the `.ipynb` file (e.g., `Untitled.ipynb` or the project filename) in the browser interface.
 3. **Execute the Cells:**
 Run the code blocks sequentially to perform the following operations:
-* 
+ 
 **Import Packages:** Loads necessary libraries (Pandas, Numpy, Sklearn, etc.).
-
-
-* 
 **Load Data:** Reads the `predictive_maintenance.csv` file.
 
 
-* 
+ 
 **Data Analysis:** Displays data descriptions, missing value counts, and visualization graphs (histograms, pie charts) .
 
 
-* 
+ 
 **Preprocessing:** Performs Label Encoding (converting text to numbers), data shuffling, and normalization (MinMaxScaler) .
 
 
-* 
+ 
 **Data Splitting:** Splits the data into 80% training and 20% testing sets.
 
 
-* 
+ 
 **Model Training:** Trains SVM, Decision Tree, Random Forest, KNN, and CNN models .
 
 
-* 
+ 
 **Evaluation:** Calculates Accuracy, Precision, Recall, and F-Score for each algorithm and plots Confusion Matrices and ROC Curves.
 
 
-* 
+ 
 **Prediction:** Runs the prediction logic on test data to identify failure types and calculate "Available Life Maintenance" percentages .
 
 
@@ -175,23 +170,23 @@ Run the code blocks sequentially to perform the following operations:
 
 The project evaluated several algorithms, yielding the following accuracy results:
 
-* 
+ 
 **CNN (Deep Learning):** ~97% (Highest Accuracy) 
 
 
-* 
+ 
 **Random Forest:** ~92% 
 
 
-* 
+ 
 **SVM:** ~92% 
 
 
-* 
+ 
 **Decision Tree:** ~88% 
 
 
-* 
+  
 **KNN:** ~82% 
 
 
