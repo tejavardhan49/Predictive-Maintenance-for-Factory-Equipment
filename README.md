@@ -72,15 +72,15 @@ The project utilizes the following Python libraries for data processing, visuali
 
 The project uses the **Predictive Maintenance Sensor Dataset** from Kaggle.
 
-* 
+ 
 **Source:** [Kaggle - Machine Predictive Maintenance Classification](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification).
 
 
-* 
+ 
 **Description:** The dataset includes features such as Air Temperature, Process Temperature, Rotational Speed, Torque, and Tool Wear.
 
 
-* 
+ 
 **Target:** The `Failure_Type` column is used as the class label for predictions.
 
 
